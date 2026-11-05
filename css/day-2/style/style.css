@@ -2,10 +2,17 @@
 
 * {
   padding: 0;
-
   font-family: roboto, sans-serif;
 
   /* Font type  */
+}
+
+body {
+  padding: 20px;
+}
+
+main {
+  border: 2px dashed black;
 }
 
 /* 2. Type Selector */
@@ -15,7 +22,17 @@ a {
   text-decoration: none;
 }
 h1 {
-  color: aqua;
+  color: green;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* 3. Class Selector we display class in css with (.) */
@@ -35,10 +52,12 @@ h1 {
 
 /* 5. Combined Selectors we display combine selectors with (,) */
 #welcome,
-.about {
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 10px;
+.about,
+.menu {
+  /* padding: 15px; */
+  border-radius: 20px;
+  padding: 50px;
+  margin: 50px;
 }
 
 #welcome {
@@ -46,4 +65,23 @@ h1 {
 }
 .about {
   background-color: lightcoral;
+}
+
+.menu {
+  background-color: lightblue;
+  font-family: Trebuchet;
+}
+
+/* 6. Direct Child Selector we use > */
+
+/* Direct Child */
+.menu > h2 {
+  color: blue;
+}
+
+/* Adjacent Sibling Selector we use + */
+
+article p + p {
+  color: red;
+  font-size: 20px;
 }
