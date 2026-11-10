@@ -1,0 +1,66 @@
+/* Universal Style */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* root */
+
+html {
+  font-size: 10px;
+}
+
+/* Body */
+body {
+  /* Relative Units */
+  height: 100vh;
+  width: 100vw;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  height: 70%;
+  background-color: goldenrod;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+  background-color: aqua;
+}
+.box {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  font-size: 20px;
+  border: 0.2em dashed #000;
+}
+nav {
+  height: 10%;
+  background-color: silver;
+}
+
+main {
+  height: 80%;
+  width: 75%;
+  background-color: beige;
+  float: right;
+}
+
+section p {
+  font-size: 1.6rem;
+}
+
+footer {
+  height: 10%;
+  background-color: silver;
+}
