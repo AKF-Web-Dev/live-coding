@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>none, inhret, auto in css</title>
+
+    <style>
+      body {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 100vh;
+        width: 100vw;
+      }
+
+      section {
+        height: 60%;
+        width: 60%;
+        background-color: silver;
+        margin: 0 auto;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+      }
+
+      .container {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+
+        height: 40%;
+        width: 40%;
+        background-color: red;
+      }
+
+      .box {
+        /* display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; */
+        background-color: white;
+        height: 60%;
+        width: 60%;
+        border: 3px solid black;
+        border-radius: 20px;
+        border: none;
+      }
+
+      h1 {
+        display: none;
+      }
+
+      a {
+        /* It removes the underline form the link */
+        text-decoration: none;
+      }
+
+      ul {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        /* It removes the bulet point form the list */
+        list-style: none;
+      }
+
+      button {
+        background-color: orangered;
+        color: #fff;
+        width: 80px;
+        border-radius: 4px;
+        padding: 5px 0px 5px 0px;
+        border: none;
+      }
+
+      img {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="box">
+          <ul>
+            <li><a href="#">Home</a></li>
+          </ul>
+
+          <button>Click</button>
+          <h1>None</h1>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
