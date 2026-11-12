@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Icons in HTML</title>
+
+    <!-- We use the link for font awesome here
+    it connnets the HTML page to the font awesome library 
+    
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 8%;
+        background-color: darkcyan;
+      }
+      a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a>
+      <a href=""><i class="fa-solid fa-circle-info"></i> About</a>
+      <a href=""> <i class="fa-solid fa-phone"></i> Contact</a>
+      <a href=""> <i class="fa-solid fa-location-dot"></i> Address</a>
+    </nav>
+  </body>
+</html>
