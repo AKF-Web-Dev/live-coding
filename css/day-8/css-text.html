@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Text</title>
+
+    <style>
+      *,
+      html {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 10px;
+      }
+
+      body {
+        padding: 30px;
+      }
+
+      nav a {
+        font-size: 1.6rem;
+        color: orangered;
+
+        /* To make the text font bold */
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+
+        /* To remove the underline from the links we use text-decoration */
+        text-decoration: none;
+
+        text-transform: capitalize;
+      }
+
+      article {
+        margin-top: 20px;
+        border: 3px double green;
+
+        /* border types
+        
+        1. solid = single line
+        2. double = double line
+        3. dotted = .....
+        4. dashed = ------
+        */
+        padding: 20px;
+      }
+      h2 {
+        text-align: center;
+
+        /* to create space between each letters in a text */
+        letter-spacing: 4px;
+
+        /* to create space between words in a text */
+        word-spacing: 20px;
+        font-size: 3rem;
+
+        /* to transfer text from lowercase to uppercase */
+        text-transform: uppercase;
+        /* text-align
+        
+        1. left: by default
+        2. right
+        3. center
+        4. justify
+        */
+        margin-bottom: 15px;
+
+        /* text-shadow is to to create shadow in a text
+        text-shadow: horizental, virticle, blur, color
+        
+        */
+
+        text-shadow: 2px 2px 5px green;
+      }
+
+      .home {
+        text-transform: lowercase;
+      }
+      p {
+        text-align: justify;
+
+        /* creates space between the paragraph lines */
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="home">HOME</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <article>
+        <h2>Afghanistan</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, ad
+          alias. Numquam debitis dolor sapiente, cupiditate libero, quam quidem
+          vero hic, voluptatum nulla iusto nam reiciendis. Voluptas velit libero
+          veniam ex quibusdam explicabo atque magni nihil consequuntur, at
+          perspiciatis aut? Saepe ipsum, animi numquam deserunt cumque magni
+          repudiandae pariatur fugiat quis iusto voluptas incidunt laudantium,
+          in deleniti soluta! Ad recusandae eveniet numquam, similique odio id
+          blanditiis modi ullam laudantium molestias? Atque, id aliquid vitae
+          excepturi sapiente debitis aliquam est eius dolorum. Laboriosam, ipsa
+          voluptate saepe molestias beatae perferendis modi, nam enim sit
+          facere, explicabo ea quam sapiente dolores. Perspiciatis, nisi.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
