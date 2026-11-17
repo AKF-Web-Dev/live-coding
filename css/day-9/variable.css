@@ -1,0 +1,97 @@
+:root {
+  --body-background-color: #dfe2e0;
+  --card-background-color: #a9b1ac;
+  --paragraph-color: #131514;
+  --heading-color: #495a50;
+  --btn-background-color: #495a50;
+  --btn-font-color: #e9edea;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 180px;
+  height: 350px;
+  height: auto;
+  padding: 0px 0px 20px 0;
+  border-radius: 30px;
+  /* border-bottom: 3px solid var(--btn-background-color); */
+
+  /* we use the variables */
+
+  background-color: var(--card-background-color);
+
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:
+    15px 15px 54px #9b9b9b,
+    -15px -15px 54px #ffffff;
+}
+
+.card:hover {
+  border: 1px solid var(--btn-background-color);
+}
+.card:hover img {
+  border-left: 1px solid var(--btn-background-color);
+  border-right: 1px solid var(--btn-background-color);
+}
+.card figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.card figure img {
+  width: 180px;
+  height: 150px;
+  border-radius: 30px;
+  border-bottom: 2px solid var(--body-background-color);
+}
+
+.card h3 {
+  font-size: 1.7rem;
+  color: var(--heading-color);
+  text-shadow: 2px 2px 5px var(--body-background-color);
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: var(--paragraph-color);
+}
+
+.card button {
+  height: 2.6rem;
+  width: 80%;
+  background-color: var(--btn-background-color);
+  color: var(--btn-font-color);
+  font: 1.3rem;
+  font-weight: bold;
+  border: none;
+
+  /* border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  border-radius: 8px;
+}
+
+.card button:hover {
+  border-bottom: 2px solid gold;
+  font-size: 1.5rem;
+}
