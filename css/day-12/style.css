@@ -1,3 +1,11 @@
+:root {
+  --btn-background: #c49b28;
+  --btn-font-color: #212832;
+  --social-icon-color: #e8d8a8;
+  --heading-font-color: #fff8e7;
+  --paragraph-font-color: #cba33c;
+  --border-color: #d4af38;
+}
 *,
 html {
   padding: 0;
