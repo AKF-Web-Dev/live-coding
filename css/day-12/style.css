@@ -67,6 +67,7 @@ article {
 p {
   font-size: 1.8rem;
   color: var(--paragraph-font-color);
+  text-transform: capitalize;
 }
 h1 {
   font-size: 3rem;
