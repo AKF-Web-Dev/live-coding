@@ -17,6 +17,8 @@ body {
 
   /* It centers the image both horizentally and virtically */
   background-position: center center;
+
+  opacity: 0.8;
 }
 
 .section-1 {
