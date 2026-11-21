@@ -4,7 +4,7 @@
   --social-icon-color: #e8d8a8;
   --heading-font-color: #fff8e7;
   --paragraph-font-color: #cba33c;
-  --border-color: #d4af38;
+  --border-color: #d4b03896;
 }
 *,
 html {
@@ -12,6 +12,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -27,10 +28,12 @@ body {
 }
 
 .profile-container {
-  height: 30%;
-  width: 15%;
+  height: 500px;
+  width: 350px;
   background-color: rgba(0, 0, 0, 0.197);
   border-radius: 20px;
+  padding-top: 30px;
+  border: 2px solid var(--border-color);
 
   /* backdrop filter
   
@@ -40,4 +43,56 @@ body {
   */
 
   backdrop-filter: blur(20px) saturate(190%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+figure img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--border-color);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+p {
+  font-size: 1.8rem;
+  color: var(--paragraph-font-color);
+}
+h1 {
+  font-size: 3rem;
+  color: var(--heading-font-color);
+}
+
+.icon-container {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+a i {
+  font-size: 30px;
+  color: var(--social-icon-color);
+}
+
+button {
+  height: 3.5rem;
+  width: 20rem;
+  border-radius: 3.5rem;
+  border: none;
+  background-color: var(--btn-background);
+  font-size: 1.6rem;
+  color: var(--btn-font-color);
+  font-weight: bold;
 }
