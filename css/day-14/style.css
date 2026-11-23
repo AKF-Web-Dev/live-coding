@@ -1,0 +1,41 @@
+*,
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+h5 {
+  margin: 15px 0px 15px 0px;
+  color: silver;
+}
+
+ul {
+  /* 1. Remove the Symbols */
+  /* list-style: none; */
+
+  /* By default the list-style-type of <ul> 
+  is: list-style-type: disc;
+  
+  */
+
+  /* 2. Circle list symbol  */
+  /* list-style-type: circle; */
+
+  /* 3. square list symbol*/
+
+  /* list-style-type: square; */
+
+  /* 4. we can use our own favourite style type */
+
+  list-style-type: "✓ ";
+}
+
+/* to change the list symbol color and size */
+ul li::marker {
+  color: green;
+  font-size: 16px;
+}
