@@ -1,0 +1,27 @@
+/* Ordered List style */
+ol {
+  /* 1. list-style: none; it removes the list style */
+  /* list-style: none; */
+
+  /*2.  deciml-leading-zero it starts from zero followed by a digit */
+  /* list-style-type: decimal-leading-zero; */
+
+  /* 3. Lower alpha = the list starts in lowercase alphabets  */
+
+  /* list-style-type: lower-alpha; */
+
+  /* 4. upper-alpha = the list starts with uppercase alphabets */
+  /* list-style-type: upper-alpha; */
+
+  /* 5. lower-roman = the list starts with lowercase latin */
+
+  /* list-style-type: lower-roman; */
+
+  /* persian = the list starts with persian digits */
+  list-style-type: persian;
+}
+
+.inside {
+  list-style-position: inside;
+  list-style-type: upper-alpha;
+}
