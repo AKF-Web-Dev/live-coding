@@ -38,8 +38,11 @@ table {
   width: 100%;
   max-width: 1000px;
   background-color: #fff;
-  border-collapse: separate;
-  border-spacing: 10px;
+  border-collapse: collapse;
+
+  /* to seperate the borders */
+  /* border-collapse: separate;
+  border-spacing: 10px; */
 
   border-radius: 20px;
   overflow: hidden;
@@ -65,13 +68,18 @@ td {
 }
 
 tbody tr {
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
-.even {
+tbody tr:nth-child(even) {
   background-color: var(--table-background);
 }
 
-.last-row {
-  border: 3px solid var(--primary-color);
+tbody tr:last-of-type {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* When you cross your mouse on someting */
+tbody tr:hover {
+  background-color: rgba(10, 4, 40, 0.25);
 }
