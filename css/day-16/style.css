@@ -22,4 +22,39 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  gap: 40px;
+  background-color: var(--background);
+}
+
+h1 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+table {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+}
+
+/* Font-size */
+tr th,
+td {
+  font-size: 1.8rem;
+}
+
+/* Table head */
+thead tr {
+  text-align: left;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+th,
+td {
+  padding: 20px 25px;
 }
