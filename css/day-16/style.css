@@ -1,7 +1,7 @@
 /* Root Style */
 
 :root {
-  --background: #f5f7fb;
+  --background: #d6d8dc;
   --primary-color: #019879;
   --table-background: #f3f6f8;
 }
@@ -38,6 +38,9 @@ table {
   width: 100%;
   max-width: 1000px;
   background-color: #fff;
+  border-collapse: collapse;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* Font-size */
@@ -57,4 +60,16 @@ thead tr {
 th,
 td {
   padding: 20px 25px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.even {
+  background-color: var(--table-background);
+}
+
+.last-row {
+  border-bottom: 3px solid var(--primary-color);
 }
