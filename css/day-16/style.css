@@ -38,7 +38,9 @@ table {
   width: 100%;
   max-width: 1000px;
   background-color: #fff;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 10px;
+
   border-radius: 20px;
   overflow: hidden;
 }
@@ -63,7 +65,7 @@ td {
 }
 
 tbody tr {
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .even {
@@ -71,5 +73,5 @@ tbody tr {
 }
 
 .last-row {
-  border-bottom: 3px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
 }
