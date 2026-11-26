@@ -61,8 +61,8 @@ p {
 
 .container {
   margin-top: 100px;
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   background-color: rgba(46, 45, 45, 0.662);
   border-radius: 20px;
   position: relative;
@@ -72,11 +72,13 @@ p {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  position: absolute;
+  left: 70px;
+  top: -40px;
 }
 
 .image-container img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 3px solid rgba(255, 0, 0, 0.564);
 }
