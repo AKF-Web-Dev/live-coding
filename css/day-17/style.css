@@ -68,12 +68,15 @@ p {
   position: relative;
 }
 
-.special {
-  position: absolute;
-  top: -20px;
-  left: 50px;
-  background-color: rgba(46, 45, 45, 0.662);
-  padding: 10px 30px;
-  border-radius: 30px;
-  color: white;
+.image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 0, 0, 0.564);
 }
