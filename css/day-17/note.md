@@ -14,5 +14,13 @@ postion which considering the document flow, we can plan an element.
 - left
 - right
 
-2. position: releative
-   it respects the document flow
+2. position: relative
+   - it respects the document flow
+   - it is relative to its old postion
+     it means: top: 100px, = it means it pushes 100px from top side of its old location
+
+3. position absolute
+
+- it is relative to the nearest parent
+- the parent contanier => postion: relative;
+- the child container => postion: absolute;
