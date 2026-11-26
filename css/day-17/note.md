@@ -31,3 +31,6 @@ postion which considering the document flow, we can plan an element.
 - it relatives to the view port
 
 5. position sticky
+
+- it respects the document flow
+- it is like the relative position
