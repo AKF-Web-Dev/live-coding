@@ -24,3 +24,10 @@ postion which considering the document flow, we can plan an element.
 - it is relative to the nearest parent
 - the parent contanier => postion: relative;
 - the child container => postion: absolute;
+
+4. position fixed
+
+- it doesn't respect the document flow
+- it relatives to the view port
+
+5. position sticky
