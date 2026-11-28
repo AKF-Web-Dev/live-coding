@@ -35,3 +35,22 @@ nav a {
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* a:visited {
+  color: var(--visited-color);
+} */
+
+a:hover {
+  border-bottom: 2px solid var(--hover-color);
+  border-top: 2px solid var(--hover-color);
+  border-radius: 10px;
+}
+a:focus {
+  color: white;
+  background-color: var(--focus-color);
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 20px 4px rgba(0, 0, 0, 0.25);
+}
+a:active {
+  color: var(--active-color);
+}
